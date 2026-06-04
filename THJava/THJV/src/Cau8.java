@@ -22,7 +22,7 @@ public class Cau8{
                 sc.close();
                 break;
             default:
-                throw new AssertionError();
+                System.out.println("This month is invalid");
         }
     }
     

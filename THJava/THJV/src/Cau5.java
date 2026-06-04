@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Cau5{
-    public static void giaiPTB1(int a, int b){
+    public static void giaiPTB1(double a, double b){
         if(a==0){
             if(b==0){
                 System.out.println("PT vo so nghiem");
@@ -11,12 +11,12 @@ public class Cau5{
             }
         }
         else{
-            double x = (double) -b / a;
-            System.out.println("PT co nghiem duy nhat x= -"+b+"/"+a+" = "+x);
+            double x = -b / a;
+            System.out.println("PT co nghiem duy nhat x= -"+(int)b+"/"+(int)a+" = "+x);
         }
     }
     public static void main(String[] args) {
-        int a,b;
+        double a,b;
         Scanner sc = new Scanner(System.in);
         System.out.println("Nhap 2 so a va b: ");
         System.out.print("a= ");
